@@ -1,14 +1,16 @@
-# The Problem
+# XLSX-cutter
+
+### The Problem
 Do you have a large excel workbook. And you want all contained xl sheets to move out in their own new workbook. 
 
-# The Solution
+### The Solution
 XLSX-cutter can help you with same.
 Simple micro-library that helps you to copy all the excel worksheets (from a given excel workbook) in their own new excel workbook.
 
-# Note
+### Note
 Corrupt or locked workbooks cannot be processed. 
 
-# Example
+### Example
 ```
 
 const path = require('path');
@@ -21,11 +23,11 @@ cutter.cut();
 
 ```
 
-# Installation
+### Installation
 ```
 npm install xlsx-cutter
 
 ```
 
-# LICENSE
+### LICENSE
 MIT

@@ -1,0 +1,26 @@
+{
+  "name": "xlsx-cutter",
+  "version": "1.0.0",
+  "description": "Utility to copy all the xlsx worksheets into their own separate xlsx workbook",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry-027/xlsx-cutter.git"
+  },
+  "keywords": [
+    "xlsx",
+    "xl-workbook",
+    "xl-worksheet",
+    "xl workbook splitter",
+    "xlsx cutter"
+  ],
+  "files": ["src"],
+  "author": "Harish Bhawnani <harishmmp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.16.0"
+  }
+}
